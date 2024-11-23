@@ -40,7 +40,7 @@ class CustomPage {
       }
     );
     //refresh the page to re-render entire app
-    await this.page.goto(toUrl || 'http://localhost:3001');
+    await this.page.goto(toUrl || 'http://localhost:3000');
     // await this.page.waitForSelector('a[href="/auth/logout"]', {
     //   timeout: 50000,
     // });
