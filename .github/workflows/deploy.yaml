@@ -25,7 +25,8 @@ jobs:
           - 6379:6379
 
     env:
-      - NODE_ENV=ci PORT=3000
+      NODE_ENV: ci
+      PORT: 3000
 
     steps:
       - uses: actions/checkout@v2
